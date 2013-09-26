@@ -1,5 +1,7 @@
 FROM totem/ubuntu:raring
 
+ENV JAVA_VERSION 7
+
 RUN echo "deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu raring main" > /etc/apt/sources.list.d/node.list
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv C7917B12
  
