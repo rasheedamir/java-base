@@ -1,4 +1,4 @@
-FROM totem/ubuntu:raring
+FROM ubuntu:trusty
 
 ENV JAVA_VERSION 7
  
