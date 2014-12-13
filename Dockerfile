@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM totem/totem-base:trusty
 
 ENV JAVA_VERSION 7
  
